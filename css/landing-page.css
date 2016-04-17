@@ -39,12 +39,16 @@ h6 {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
+    background: radial-gradient(rgba(50,55,61,.75),rgba(50,55,61,.75),rgba(50,55,61,.5),rgba(50,55,61,0),rgba(50,55,61,0))
 }
 
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+    /*background: rgba(50,55,61,.5);*/
+
+
 }
 
 .intro-divider {
@@ -55,6 +59,8 @@ h6 {
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /*background: rgba(50,55,61,.5);*/
+
 }
 
 @media(max-width:767px) {
